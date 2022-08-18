@@ -6,4 +6,9 @@ public class HomeController : Controller
     {
         return View();
     }
+
+        public IActionResult example()
+    {
+        return View();
+    }
 }
